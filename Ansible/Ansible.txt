@@ -1,0 +1,50 @@
+Ansible
+-----------------
+Ansible is configuration management tools.
+
+	-Uses SSH.
+	-Developed in python programming.
+	-Yello color is installed
+	-Green is service is started.
+
+How to install=>
+	sudo su - yum install anisble
+	
+-Inventory is nothing but our differnt host machine.
+
+create a ansible yaml file(yet another markup langyage)
+-synatx=>
+----------------
+-name: name of the server
+ hostname: port or name
+ task: 
+ - name: pining the server
+  ansible.builtin.ping:
+----------------
+
+Command to run anisble=>
+------------------
+ansible-playbook -i inventory -e ansible_user=username -e ansible_password=password first_playbook.yaml
+------------------
+
+	/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-3.el9.x86_64/bin/java
+	
+	wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+	
+	wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+	
+	rpm --import  https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+	
+Java installation steps on linux:
+
+1.sudo yum install java-11-openjdk
+2.java -version
+3.
+
+/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-3.el9.x86_64/bin/java
+
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-3.el9.x86_64/bin/java
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+

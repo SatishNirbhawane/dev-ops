@@ -25,3 +25,7 @@ git log: history of command
 git config --global user.name "Satish Nirbhawane"
 
 git config --global user.email "snirbhawane08@gmail.com"
+
+get checkout 
+
+git rebase 
