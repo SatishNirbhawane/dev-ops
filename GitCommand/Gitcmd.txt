@@ -1,0 +1,27 @@
+Git=>VCS
+--------------
+git init :Initilization the repo
+		 -Communication with remote repo
+--------------
+git clone : clone the remote repo to the local repo
+		 eg.copy the remote repo hhtps link
+		
+--------------
+git status: check the status of the working dir
+
+---------
+git add . : add the all new file in the repo
+---------------- 
+git restore -stagged filename.txt : 
+---------
+git commit -m ''
+---------
+git pull :get the remote file to local repo
+--------
+git revert --commit id
+--------------
+git log: history of command
+-----------
+git config --global user.name "Satish Nirbhawane"
+
+git config --global user.email "snirbhawane08@gmail.com"
